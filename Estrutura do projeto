@@ -1,0 +1,16 @@
+favorite-products/
+│
+├── backend/
+│   ├── src/
+│   ├── prisma/
+│   ├── Dockerfile
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   ├── Dockerfile
+│   └── package.json
+│
+├── docker-compose.yml
+├── .github/workflows/
+└── README.md

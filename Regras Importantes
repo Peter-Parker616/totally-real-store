@@ -1,0 +1,28 @@
+E-mail único
+
+No Prisma:
+
+email String @unique
+Produto não duplicado
+
+Antes de salvar:
+
+const existing = await prisma.favorite.findFirst({
+  where: {
+    clientId,
+    productId
+  }
+})
+Produto precisa existir
+
+Faz request na Fake Store:
+
+const response = await axios.get(
+  `https://fakestoreapi.com/products/${productId}`
+)
+
+Se der erro:
+
+return res.status(404).json({
+  error: "Produto não encontrado"
+})

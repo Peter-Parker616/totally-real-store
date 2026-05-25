@@ -1,0 +1,28 @@
+Adicionar favorito
+POST /clients/:id/favorites
+
+Body:
+
+{
+  "productId": 1
+}
+Listar favoritos
+GET /clients/:id/favorites
+
+Tu vai buscar:
+
+https://fakestoreapi.com/products/{id}
+
+E retornar:
+
+{
+  "id": 1,
+  "title": "Product",
+  "image": "...",
+  "price": 100,
+  "rating": {
+    "rate": 4.5
+  }
+}
+Remover favorito
+DELETE /clients/:id/favorites/:productId

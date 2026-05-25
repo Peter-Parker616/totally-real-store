@@ -1,0 +1,13 @@
+Cliente:
+
+Client
+- id
+- name
+- email
+
+Favoritos:
+
+Favorite
+- id
+- clientId
+- productId

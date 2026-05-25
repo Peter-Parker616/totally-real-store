@@ -1,0 +1,15 @@
+Criar cliente
+
+POST /clients
+
+Listar clientes
+
+GET /clients
+
+Editar cliente
+
+PUT /clients/:id
+
+Remover cliente
+
+DELETE /clients/:id
